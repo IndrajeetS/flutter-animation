@@ -34,9 +34,10 @@ class HomePage extends StatelessWidget {
                       : posts.length,
                   itemBuilder: (context, index) {
                     if (index >= posts.length) {
-                      return const Padding(
-                        padding: EdgeInsets.all(8.0),
-                        child: CircularProgressIndicator.adaptive(),
+                      return Container(
+                        alignment: Alignment.center,
+                        padding: const EdgeInsets.all(8.0),
+                        child: const CircularProgressIndicator.adaptive(),
                       );
                     } else {
                       final post = posts[index];
