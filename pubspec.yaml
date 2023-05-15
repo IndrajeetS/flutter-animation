@@ -17,6 +17,11 @@ dependencies:
   equatable: ^2.0.5
   http: ^0.13.5
   url_strategy: ^0.2.0
+  flutter_sound_lite:
+  flutter_riverpod: ^2.3.6
+  fluttertoast: ^8.2.1
+  mockito: ^5.4.0
+  build_runner: ^2.3.3
 
 dev_dependencies:
   flutter_test:
